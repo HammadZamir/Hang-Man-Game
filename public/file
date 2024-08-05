@@ -1,0 +1,66 @@
+// import React from 'react';
+
+// function HangmanFigure({ wrongGuesses }) {
+//   // Define the number of wrong guesses that display each part of the hangman
+// //   const stages = [
+// //     // Stage 1: Head
+// //     <circle key="head" cx="140" cy="70" r="20" stroke="white" strokeWidth="4" fill="none" />,
+// //     // Stage 2: Body
+// //     <line key="body" x1="140" y1="90" x2="140" y2="150" stroke="white" strokeWidth="4" />,
+// //     // Stage 3: Left Arm
+// //     <line key="left-arm" x1="140" y1="120" x2="110" y2="100" stroke="white" strokeWidth="4" />,
+// //     // Stage 4: Right Arm
+// //     <line key="right-arm" x1="140" y1="120" x2="170" y2="100" stroke="white" strokeWidth="4" />,
+// //     // Stage 5: Left Leg
+// //     <line key="left-leg" x1="140" y1="150" x2="120" y2="180" stroke="white" strokeWidth="4" />,
+// //     // Stage 6: Right Leg
+// //     <line key="right-leg" x1="140" y1="150" x2="160" y2="180" stroke="white" strokeWidth="4" />,
+// //   ];
+
+//   return (
+//     <div className='flex flex-col m-10 items-center '>
+//         <h2 className='text-2xl font-bold'>Total Lifes : 6</h2>
+//         <h2 className='text-2xl font-bold'>Lifes Wasted : <span className='text-red-900'>{wrongGuesses} </span> </h2>
+//     </div>
+//     // <svg height="250" width="200" className="mx-auto">
+//     //   {/* Base */}
+//     //   <line x1="20" y1="230" x2="160" y2="230" stroke="white" strokeWidth="4" />
+//     //   {/* Pole */}
+//     //   <line x1="60" y1="230" x2="60" y2="20" stroke="white" strokeWidth="4" />
+//     //   <line x1="60" y1="20" x2="140" y2="20" stroke="white" strokeWidth="4" />
+//     //   <line x1="140" y1="20" x2="140" y2="50" stroke="white" strokeWidth="4" />
+
+//     //   {/* Hangman Parts */}
+//     //   {stages.slice(0, wrongGuesses)}
+//     // </svg>
+//   );
+// }
+
+// export default HangmanFigure;
+
+
+
+
+
+// import React from 'react';
+
+// function Word({ word, correctGuesses }) {
+//     console.log(word , " , " , correctGuesses)
+// // t i g e r
+//   return (
+//     <div className="flex justify-center mb-8">
+//       {word.split('').map((letter, index) => (
+//         <span
+//           key={index}
+//           className="border-b-2 border-white mx-1 text-2xl w-8 text-center"
+//         >
+//           {correctGuesses.includes(letter) ? letter : '_'}
+//         </span>
+//       ))}
+   
+
+//     </div>
+//   );
+// }
+
+// export default Word;
